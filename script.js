@@ -55,9 +55,9 @@
 // console.log(res);
 
 // ? match method
-const str = "The rain in SPAIN, stays mainly in plain"
-const res = str.match(/ain/g)
-console.log(res);
+// const str = "The rain in SPAIN, stays mainly in plain"
+// const res = str.match(/ain/g)
+// console.log(res);
 // ? the match method returns an array containing the results of that search
 
 // ? reapeat method
@@ -177,8 +177,8 @@ console.log(res);
 // //* console.count() methods
 // console.count("my label");
 // console.count("my label");
-// console.count("my label 3");
-// console.count("my label 3");
+// console.count("my label 1");
+// console.count("my label 2");
 // * this writes a message containing the number of times console.count() was called;
 
 // * console.group() method
@@ -211,7 +211,7 @@ console.log(res);
 // * console.info() also writes a message to the console;
 
 // * console.time()
-// for (i = 0; i < 150; i++) {
+// for (i = 0; i < 199250; i++) {
 //   console.time();
 // }
 // console.timeEnd();
@@ -255,6 +255,7 @@ console.log(res);
 // function someOtherFunction(event) {
 //   console.log("i will not get to say hello world");
 // }
+
 // * the stopImmediatePropagation() method prevents other listners of the same event from beign called.
 
 // ? SCREEN OBJECT ....................
@@ -292,7 +293,7 @@ console.log(res);
 // ? BROWSER WINDOW.........
 
 // * loccalStorage
-// localStorage.setItem("lastName", "johndoe")
+// localStorage.setItem("lastName", "john doe")
 // const res = localStorage.getItem("lastName");
 // console.log(res);
 // * the localStorage/sessionStorage properties allow to save key/pair values in a web browser
@@ -318,13 +319,16 @@ console.log(res);
 // * the atob method decodes a base-64 encoded string.this method decodes a string of data which has been encoded by the btoa() method.
 
 // * btoa() method
-// let str = "Hello world";
+// let str = "ISUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0E9";
 // let enc = window.btoa(str)
+//  let dec = window.atob(enc);
 // console.log(enc);
+// console.log(dec);
+
 // * the btoa method encodes a string in base-64;
 
 // * clearInterval();
-// let myVar = setInterval(myTimer, 1000);
+// let myVar = setInterval(myTimer, 6000);
 
 // function myTimer() {
 //   let d = new Date();
@@ -345,7 +349,7 @@ console.log(res);
 // const element = document.getElementById("myBtn");
 // const CssProp = window
 //   .getComputedStyle(element, null)
-//   .getPropertyValue("background-color");
+//   .getPropertyValue("color");
 // console.log(CssProp);
 // * the getComputedStyle() method gets all the actual (computed) CSS property and values of the specified element;
 
@@ -370,7 +374,7 @@ console.log(res);
 // * the anchors collection returns a collection of all <a></a> elements iin the documentr that have a name attribute;
 
 // * body;
-// document.body.style.backgroundColor = "yellow"
+// document.body.style.backgroundColor = "black"
 // * the body property sets or returns the document's body;
 
 // * cookie;
@@ -393,6 +397,9 @@ console.log(res);
 // * createElement;
 // const btn = document.createElement("button");
 // btn.innerHTML = "Click me";
+// let att = document.createAttribute("id")
+// att.value="myBtn2"
+// btn.setAttributeNode(att)
 // document.body.appendChild(btn);
 // * the createElement method creates an element node with the specified name;
 
