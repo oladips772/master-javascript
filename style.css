@@ -1,50 +1,191 @@
-/** @format */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+/**
+ * /* * @format
+ * {
+ *   margin: 0;
+ *   padding: 0;
+ *   box-sizing: border-box;
+ *   font-family: Arial, Helvetica, sans-serif;
+ * }
+ * main {
+ *   max-width: 1100px;
+ *   margin: 10px auto;
+ * }
+ * main .form {
+ *   max-width: 700px;
+ *   margin: 20px auto;
+ *   display: flex;
+ *   flex-direction: column;
+ *   align-items: center;
+ * }
+ * input {
+ *   height: 37px;
+ *   width: 80%;
+ *   margin: 10px 0;
+ *   outline: none;
+ *   font-size: 18px;
+ * }
+ * .form button {
+ *   height: 37px;
+ *   width: 80%;
+ *   cursor: pointer;
+ *   margin-top: 6px;
+ * }
+ * 
+ * p {
+ *   color: rgba(255, 0, 0, 0.925);
+ *   font-size: 17px;
+ *   font-weight: normal;
+ *   display: none;
+ * }
+ * 
+ * .pss1.active {
+ *   display: block;
+ * }
+ * 
+ * .pss2.active {
+ *   margin-bottom: 6px;
+ *   display: block;
+ * }
+ * .democlass{
+ *   color:green;
+ * }
+ *
+ * @format
+ */
+
+/* p {
+  height: 40px;
+  width: 40px;
+  background: red;
+  border-radius: 50%;
+  transition: all 0.6s ease-in-out;
+  transition-delay: 0.1s;
 }
-main {
-  max-width: 1100px;
-  margin: 10px auto;
+p.right{
+  transform:translateX(90px)
 }
-main .form {
-  max-width: 700px;
-  margin: 20px auto;
+p.down{
+  transform:translateY(90px)
+} */
+/* 
+.box1 {
+  background-color: red;
+  width: 200px;
+  height: 200px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-}
-input {
-  height: 37px;
-  width: 80%;
-  margin: 10px 0;
-  outline: none;
-  font-size: 18px;
-}
-.form button {
-  height: 37px;
-  width: 80%;
-  cursor: pointer;
-  margin-top: 6px;
+  justify-content: center;
+  position: absolute;
+  left: 20%;
+  top: 10px;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+} */
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 405px solid green;
+  position: absolute;
+  left: 49%;
+  top: 15%;
+  transform: rotate(60deg);
 }
 
-p {
-  color: rgba(255, 0, 0, 0.925);
-  font-size: 17px;
-  font-weight: normal;
-  display: none;
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 400px solid green;
+  position: absolute;
+  left: 37.5%;
 }
 
-.pss1.active {
-  display: block;
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 405px solid green;
+  position: absolute;
+  left: 26%;
+  top: 15%;
+  transform: rotate(-60deg);
+}
+.box4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 405px solid green;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: rotate(-140deg);
 }
 
-.pss2.active {
-  margin-bottom: 6px;
-  display: block;
+.box5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 405px solid green;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: rotate(140deg);
 }
-.democlass{
-  color:green;
+
+/* .box3 {
+  background-color: blue;
+  width: 160px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+  transform:rotate(-50deg)
 }
+
+.box4 {
+  background-color: blue;
+  width: 160px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  left: 56%;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+  transform:rotate(50deg)
+} */
+
+/* p {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+} */

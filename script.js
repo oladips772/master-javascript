@@ -432,10 +432,11 @@
 // console.log(x);
 // * the lastModified method gets and returns the date the current document was last modified;
 
-// * addEventListener
+// * addEventListener;
 // document.addEventListener("mousemove", () =>
 //   document.write("<h1>hello world</h1>")
 // );
+
 // * the addEventListener method, adds an event to the document yet,only if the evenLisnter has been performed.
 
 // * title
@@ -873,3 +874,14 @@
 // * waiting
 // onwaiting;
 // * the onwaiting event occurs when the video stops because its need to buffer the next frame.
+
+// function moveRight() {
+//   const ball = document.getElementById("ball");
+//   ball.classList.add("right");
+//   ball.style.translate = ("Y",20)
+// }
+
+// function moveDown() {
+//   const ball = document.getElementById("ball");
+//   ball.classList.add("down");
+// }
