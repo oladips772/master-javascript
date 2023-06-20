@@ -4,86 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script4.js" defer></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Document</title>
   </head>
   <body>
-    <main>
-      <!-- <div class="form">
-        <input type="email" placeholder="Email address" id="email" required />
-        <input
-          type="password"
-          placeholder="password"
-          id="password1"
-          oninput="Onchange()"
-          required
-        />
-        <p class="pss1">password length should be greater than 10 characters</p>
-        <input
-          type="password"
-          placeholder="confirm password"
-          id="password2"
-          oninput="Onchange2()"
-          required
-        />
-        <p class="pss2">passwords do not match!</p>
-      </div> -->
-      <!-- <button type="submit" id="myBtn">Register</button>
-      <a name="a-tag"></a>
-       <span id="demo">about to show time in 5sc</span> 
-     <h1>1ST</h1>
-<h1>2N</h1>
-<h1>3RD</h1> 
-      -->
-
-      <!-- <li>1st list</li>
-      <li>2nd list</li> 
-
-      <li>3rd list</li>
-      <li>4th list</li>
-    <hr/>
-    <ul>1st ul</uL>
-    <ul>2nd ul</uL>
-    <ul>3rd ul</uL>  -->
-
-      <!-- <p id="ball" ></p>
-      <button onclick="moveRight()">move the ball right</button>
-      <button onclick="moveDown()">move the ball down</button> -->
-<!-- 
-      <div class="box1">
-        <p class="text-1">1</p>
-      </div> -->
-
-      <div class="box1">
-        <!-- <p class="text-2">2</p> -->
-      </div>
-      <div class="box2">
-        <!-- <p class="text-2">2</p> -->
-      </div>
-      <div class="box3">
-        <!-- <p class="text-2">2</p> -->
-      </div>
-        <!-- <p class="text-2">2</p> -->
-      </div>
-       <div class="box4">
-        <!-- <p class="text-2">2</p> -->
-      </div>
-      <div class="box5">
-        <!-- <p class="text-2">2</p> -->
-      </div>
-
-      <!-- <div class="box3">
-        <p class="text-3">3</p>
-      </div>
-
-      <div class="box4">
-        <p class="text-4">4</p>
-      </div> -->
-
-    </main>
-
-    <script src="script.js"></script>
-    <!-- <article>an article</article> -->
-
+    <input type="text" id="name" />
+    <input
+      maxlength="10"
+      type="password"
+      id="password"
+      oninput="checkPassword()"
+      placeholder="password"
+    />
+    <p class="error" id="error">you have 10 characters left</p>
+    <button onclick="togglePassword()" id="BTN">show password</button>
   </body>
 </html>

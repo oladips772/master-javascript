@@ -3,13 +3,13 @@
 // * STRINGS..............
 
 // ? charAt() method
-// const str = "HELLO WORLD"
-// const res = str.charAt(0)
+// const str = "hello world";
+// const res = str.charAt(0);
 // console.log(res);
 
 // ? Concat method
-// const str1 = "Hello "
-// const str2 = "World"
+// const str1 = "Hello ";
+// const str2 = "World";
 // const res = str1.concat(str2);
 // console.log(res);
 
@@ -38,16 +38,15 @@
 // console.log(res);
 
 // ? localcopare method
-// const str1 = "ab"
-// const str2 = "cd"
-// const res = str1.localeCompare(str2)
+// const str1 = "ab";
+// const str2 = "cd";
+// const res = str1.localeCompare(str2);
 // console.log(res);
-// ? the localeCompare method comapares the given parameter with the target , and returns a negative value if the comaparison returns in an (ascending order) and positive in an (descending order).
-
+// ? the localeCompare method compares the given parameter with the target , and returns a negative value if the comparison returns in an (ascending order) and positive in an (descending order).
 // ? includes method
-// const str = "hello world"
-// const res = str.includes(" ")
-// console.log(res);
+const str = "hello world"
+const res = str.includes("world")
+console.log(res);
 
 // ? lastindexof method
 // const str = "hello planet earth, you are a great planet";
@@ -223,7 +222,7 @@
 // * the console.table() writes a message to the console in a table form , including each item having their own index . the parameter should be an arrray[] with items or values in it.
 
 // * console.warn()
-// console.warn("this is a warning");
+// console.error("oloo");
 // * this methods writes a warning message to the console.
 
 // * DOM EVENTS PROPERTIES AND METHODS.......
@@ -286,14 +285,14 @@
 // * the height property, returns the total height of the user's screen in pixels.
 
 // * width--property
-// const x = "total width " + screen.width;
+// const x = "total width of this browser is " + screen.width;
 // console.log(x);
 // * the width property, returns the total width of the user's screen in pixels.
 
 // ? BROWSER WINDOW.........
 
 // * loccalStorage
-// localStorage.setItem("lastName", "john doe")
+// localStorage.setItem("lastName", "john wick")
 // const res = localStorage.getItem("lastName");
 // console.log(res);
 // * the localStorage/sessionStorage properties allow to save key/pair values in a web browser
@@ -342,6 +341,7 @@
 // * the clearInterval method clears a timer set with the setInterval method, the Id value returned by the setInterval is used as parameter for the clearInterval() method;
 
 // * confirm();
+// alert("about to press a button")
 // confirm("press a button")
 // * the confirm method displays a dialogue box with a specified button along with an okay and a cancel button.
 
@@ -374,7 +374,7 @@
 // * the anchors collection returns a collection of all <a></a> elements iin the documentr that have a name attribute;
 
 // * body;
-// document.body.style.backgroundColor = "black"
+// document.body.style.backgroundColor = "red"
 // * the body property sets or returns the document's body;
 
 // * cookie;
@@ -388,18 +388,21 @@
 // * the characterSet property, returns the character encoding of the document.
 
 // * createAttribute;
-// let H1 = document.getElementsByTagName("h1")[0];
+// let H2 = document.getElementsByTagName("h2")[1]
 // let att = document.createAttribute("class");
 // att.value = "democlass"
-// H1.setAttributeNode(att);
+// H2.setAttributeNode(att);
 // * the createAttribute method creates an attribute with specified name,and returns the attribute as attr object;
+{
+  /* <button id="myBtn2">Click me</button>; */
+}
 
 // * createElement;
 // const btn = document.createElement("button");
 // btn.innerHTML = "Click me";
-// let att = document.createAttribute("id")
-// att.value="myBtn2"
-// btn.setAttributeNode(att)
+// let att = document.createAttribute("class");
+// att.value = "myBtn2";
+// btn.setAttributeNode(att);
 // document.body.appendChild(btn);
 // * the createElement method creates an element node with the specified name;
 
@@ -562,7 +565,7 @@
 // * the property, returns or set the port number the server uses for a URL.
 
 // reload
-// location.reload
+// location.reload()
 // * the reload property reloads the current document.
 
 // ? HTML DOM EVENTS....................
