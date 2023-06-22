@@ -1,14 +1,14 @@
 /** @format */
 
-// /** @format */
+/** @format */
 // // let human = "john";
 // // console.log(human);
-// let students = ["john", "jane", "joe"];
-// console.log(students);
-// console.log(students[0]);
+// let students = ["Jane"];
 
 // if (students.length > 2) {
 //   console.log("There are more than 2 students");
+// } else  {
+//   console.log("There are less students");
 // }
 
 // if (students.length < 2) {
@@ -19,18 +19,21 @@
 //   ? console.log("there are more than 2 students in the class")
 //   : console.log("there are less than 2 students in the class");
 
-//   if (condition) {
+// if (condition) {
 
-//   } else {
+// } else {
 
-//   }
+// }
 
 // let boy = "alli";
 // let twinBoy = boy;
 // console.log(twinBoy);
 
-// var bigNumber = 50;
-// let smallNumber = 10;
+// const numbers = [10, 30, 30, 03, 103, 70, 90];
+
+// var bigNumber = numbers[5]; // equals to 70
+// let smallNumber = numbers[2] - 30 + numbers[2] + bigNumber;
+// 100;
 
 // if (bigNumber > smallNumber) {
 //   bigNumber = bigNumber + smallNumber;
@@ -44,17 +47,17 @@
 // let firstBoys = students.slice(2, 5);
 // console.log(firstBoys);
 
-// ? bolean value
+// ? boolean value
 // true
 // false,
 
-// const FALSE = 0;
-// const TRUE = 1;
+// const FALSE = false;
+// const TRUE = true;
 
-// if (FALSE) {
-//   console.log("data is true");
-// } else {
+// if (false) {
 //   console.log("data is false");
+// } else {
+//   console.log("data is true");
 // }
 
 // if (TRUE) {
@@ -62,22 +65,22 @@
 // }
 
 // ? strings
-// let string = "hello world";
+// let string = 124506859055;
 // console.log(string.length);
-// console.log(string.trim().length);
+// console.log(string.trimEnd().length);
 // console.log(string.includes("world"));
 // console.log(string.toUpperCase())
 // console.log(string.toLowerCase())
 
 // ? match method
-// const string = "The rain in SPAIN, stays mainly in plain"
-// const response = string.match(/ain/g)
+// const string = "The rain in SPAIN, stays mainly in plain";
+// const response = string.match(/ain/g);
 // console.log(response);
 // ? the match method returns an array containing the results of that search
 
 // ? slice method
 // const string = "hello world";
-// const newString = string.slice(6,11)
+// const newString = string.slice(6, 11);
 // console.log(newString);
 
 // ? endsWith method
@@ -95,14 +98,14 @@
 // alert("hello world")
 
 // ? prompt method from the window
-// prompt("hello whats your name")
+// prompt("hello what's your name")
 
 // if (window.confirm("do you want a greeting message")) {
 //   const userName = prompt("what is your name?");
 //   if (userName) {
-//     alert("hello " + userName + " welcome back ");
+//     alert("hello " + userName + " welcome back");
 //   } else {
-//     alert("you didnt enter your name");
+//     alert("you didn't enter your name");
 //   }
 // }
 
@@ -117,11 +120,18 @@
 //   }
 // }
 
-// objects
+// const student = {
+//   name: "khalid",
+//   class: "grade 4",
+//   year: 2018,
+//   state: "bauchi",
+// };
+
+// console.log(student.class)
 
 // const students = ["jane", "doe", "joy"];
 // console.log(students[2]);
-// students[2] = "jane2"
+// students[2] = "joseph";
 // console.log(students[2]);
 
 // const student2 = [
@@ -130,12 +140,6 @@
 //     class: "grade 2",
 //     year: 2022,
 //     state: "plataeu",
-//   },
-//   {
-//     name: "khalid",
-//     class: "grade 4",
-//     year: 2018,
-//     state: "bauchi",
 //   },
 //   {
 //     name: "doe",
@@ -151,31 +155,33 @@
 //   },
 // ];
 
-// const onlyGirls = [student2[0] , student2[3]];
+// const onlyGirls = [student2[0], student2[2]];
 // console.log(onlyGirls);
 
-// const jane = {
-//   name: "JANE",
-//   email: "jane@email",
-//   phone: 0902344,
-// };
+const jane = {
+  name: "JANE",
+  email: "jane@email",
+  phone: 0902344,
+};
 
-// jane.email = "newjane@email";
-// console.log(jane[1]);
+console.log(jane);
+
+jane.email = "newjane@email";
+console.log(jane);
 
 // const funitures = ["sofa", "dining table", "couch", "cabinet", "wardrobe"];
 
 // const students = ["jane", "doe", "joy", "chima"];
-// console.log(students.length)
-// const allBoys = students.slice(1, 2)
-// console.log(allBoys)
+// console.log(students.length);
+// const allBoys = students.slice(1, 2);
+// console.log(allBoys);
 
 // funitures[0] = "chair";
 
-// funitures["sofa"] = "chair"
-// console.log(funitures)
+// funitures["sofa"] = "chair";
+// console.log(funitures);
 
-// objects
+// objects;
 
 // const funitures = [
 //   {
@@ -195,13 +201,13 @@
 //   },
 // ];
 
-// console.log(funitures)
+// console.log(funitures);
 
 // funitures[0].name = "chair";
 // console.log(funitures);
 
 // if (2 === 4) {
-//   console.log("equation is true")
+//   console.log("equation is true");
 // }
 
 // if (2 === 4) {
@@ -215,6 +221,3 @@
 // } else if (2 === 6) {
 //   console.log("equation is true");
 // }
-
-
-
